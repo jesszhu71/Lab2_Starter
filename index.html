@@ -86,6 +86,8 @@
                     <fieldset><br>
                         <label for="name">name:</label>
                         <input type="text" id="name"><br><br>
+                        <label for="day">Today's Date:</label>
+                        <input type="date" id="day" name="day"><br><br>
                         <label for="comment">comment:</label><br>
                         <textarea id="comment" rows="5" cols = "50">
                         </textarea><br><br>
@@ -110,6 +112,13 @@
                             <option value="teaching assistant"></option>
                             <option value="other"></option>
                         </datalist><br><br>
+                        <input type="radio" id="question" name="interaction_type" value="question">
+                        <label for="question">question</label><br>
+                        <input type="radio" id="comment" name="interaction_type" value="comment">
+                        <label for="comment">comment</label><br><br>
+                        <input type="checkbox" id="updateUser" name="updateUser" value="yes">
+                        <label for="updateUser"> Would you like an update of our project? If yes please leave your email in the comment box. </label><br><br>
+
                         <button type="button">Submit!</button>
 
                     </fieldset>
